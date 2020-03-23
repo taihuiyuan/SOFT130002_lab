@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+}
+
+header {
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+    height: 70px;
+    border: 1px solid lightgrey;
+}
+
+nav {
+    float: left;
+    margin: auto 3em;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a {
+    color: #000000;
+    text-decoration:none;
+}
+nav a{
+    padding:10px;
+}
+a:hover{
+    color: #87bff2;
+}
+
+.header-left{
+    float: right;
+    margin-top: 12px;
+}
+.header-left a{
+    padding: 10px;
+    font-size: 100%;
+}
+.header-right{
+    margin-right: 200px;
+    margin-top: 25px;
+    padding-right: 20px;
+    color: #000000;
+    float: right;
+}
+
+.contents{
+    padding: 10px;
+    margin: 20px 150px;
+    background-color: #f6f6f6;
+}
+.contents-left{
+    float: left;
+    margin-left: 0;
+    width: 80%;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+.title{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: 1px solid lightgrey;
+}
+.title-content{
+    display: block;
+    width: 10%;
+}
+.comment li {
+    display: block;
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+h6{
+    font-size: 1.2em;
+    margin: 1%;
+}
+.answer{
+    margin-left: 1%;
+    width: 98%;
+}
+.answer span{
+    line-height: 25px;
+}
+button{
+    border: none;
+    background-color: white;
+}
+hr {
+    width: 90%;
+    margin: 0 5%;
+    border-width:0;
+    height: 1px;
+    color:rgba(85, 125, 171, 0.6);
+    background-color:rgba(85, 125, 171, 0.6);
+}
+section .action{
+    padding-top: 20px;
+}
+section .button {
+    margin-left: 1%;
+    width: 8%;
+    font-size: small;
+    background-color: rgba(0,132,255,.1);
+    padding: 0.5em;
+    color:#0084ff;
+    border: 1px solid rgba(85, 125, 171, 0.6);
+    border-radius: 4px;
+}
+.active {
+    color:#87bff2;
+}
+.page{
+    text-align: center;
+}
+.contents-right{
+    position: fixed;
+    float: right;
+    width: 15%;
+    background-color: white;
+    border-radius: 4px;
+}
+.function {
+    padding: 10px;
+}
+.function li{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border: 1px solid lightgrey;
+    line-height: 25px;
+}
