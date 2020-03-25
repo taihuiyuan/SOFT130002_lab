@@ -127,7 +127,7 @@ section .button {
     text-align: center;
 }
 .contents-right{
-    position: fixed;
+    position: relative;
     float: right;
     width: 15%;
     background-color: white;
