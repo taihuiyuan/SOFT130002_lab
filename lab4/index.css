@@ -1,0 +1,65 @@
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-brand{
+    padding: 6px 6px;
+}
+.item img{
+    width: 100%;
+}
+
+.row{
+    margin-top: 30px;
+}
+.well{
+    background-color: lightgrey;
+}
+.col-xs-3 a{
+    color: black;
+}
+.col-xs-3 a:hover{
+    color: grey;
+    text-decoration: none;
+}
+.text-left{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+footer{
+    background-color: #333333;
+}
+footer .row{
+    margin-left: 110px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    text-decoration: none;
+    color: lightgrey;
+}
+.back-up,.refresh{
+    display: block;
+    border: 1px solid lightgrey;
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    cursor: pointer;
+    right: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+.back-up{
+    bottom: 150px;
+}
+.refresh{
+    bottom: 90px;
+}
