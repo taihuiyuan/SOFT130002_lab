@@ -23,8 +23,8 @@
 
 ### github截图
 
-![github截图](./lab5设计文档.assets/github截图.jpg)
+![github截图](.\lab5设计文档.assets\github截图.jpg)
 
 ### 网页效果截图
 
-![效果截图](./lab5设计文档.assets/效果截图.jpg)
+![效果截图](.\lab5设计文档.assets\效果截图.jpg)
