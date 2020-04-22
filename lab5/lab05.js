@@ -42,7 +42,7 @@ function timeTest(){
     n++;
     let start = mul.value;
     mul.value = 2*start;
-    if (n > 9) {
+    if (new Date().getSeconds() === 0 || n > 9) {
         // 取消该定时设置
         clearInterval(intervalID);
     }
